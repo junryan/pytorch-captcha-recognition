@@ -38,7 +38,8 @@
 - __步骤一：10分钟环境安装__
 
     Python2.7+ 、ImageCaptcha库(pip install captcha)、 Pytorch(参考官网http://pytorch.org)
-
+    ```pip install torch torchvision pandas captcha tensorflow Pillow numpy  matplotlib pip -i https://pypi.mirrors.ustc.edu.cn/simple/ ```
+    在这里，只训练了４位数字类别
 
 - __步骤二：生成验证码__
     ```bash
